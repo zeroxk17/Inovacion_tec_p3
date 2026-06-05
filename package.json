@@ -1,0 +1,9 @@
+{
+  "name": "aire-del-bienestar",
+  "version": "1.0.0",
+  "description": "Sistema de monitoreo de calidad del aire industrial",
+  "scripts": {
+    "test": "echo \"Sin pruebas por ahora\" && exit 0",
+    "build": "echo \"Build completado\" && exit 0"
+  }
+}
