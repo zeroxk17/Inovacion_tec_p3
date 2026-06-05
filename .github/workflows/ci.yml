@@ -23,8 +23,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Pruebas unitarias
+     - name: Pruebas unitarias
         run: npm test
+        env:
+          NODE_ENV: ${{ secrets.NODE_ENV }}
+          NOMBRE: ${{ secrets.APP_NAME }}
 
       - name: Build de producción
         run: npm run build
